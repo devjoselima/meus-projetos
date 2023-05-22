@@ -8,34 +8,35 @@ const Projetos = () => (
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <Projeto />
+        <Projeto
+          tituloProjeto={'Projeto Lista de tarefas'}
+          descProjeto={'Lista de tarefas feita com VueJS'}
+          linkProjeto={'https://to-do-vue-pearl.vercel.app'}
+        />
       </li>
+
       <li>
-        <Projeto />
+        <Projeto
+          tituloProjeto={'Pokedex'}
+          descProjeto={'Uma pokedex consumindo uma api de pokemon'}
+          linkProjeto={'https://pokemon-search-bice.vercel.app'}
+        />
       </li>
+
       <li>
-        <Projeto />
+        <Projeto
+          tituloProjeto={'Dictionary App'}
+          descProjeto={'Um dicionario consumindo a api Free Dictionary'}
+          linkProjeto={'https://dictionary-app-sand.vercel.app'}
+        />
       </li>
+
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <Projeto
+          tituloProjeto={'Quiz copa do mundo'}
+          descProjeto={'Um quiz da copa do mundo feito com js'}
+          linkProjeto={'https://quiz-copa.vercel.app'}
+        />
       </li>
     </Lista>
   </section>
