@@ -2,12 +2,12 @@ import { P } from './styles';
 
 export type Props = {
   children: string;
-  tipo?: 'principal' | 'secundario';
+  type?: 'dark' | 'light';
   fontSize?: number;
 };
 
-const Paragrafo = ({ children, tipo = 'principal', fontSize }: Props) => (
-  <P fontSize={fontSize} tipo={tipo}>
+const Paragrafo = ({ children, type = 'dark', fontSize }: Props) => (
+  <P fontSize={fontSize} type={type}>
     {children}
   </P>
 );

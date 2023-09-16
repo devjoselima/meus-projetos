@@ -1,4 +1,4 @@
-import { Titulo as TituloEstilo } from './styles';
+import { Title as StyleTitle } from './styles';
 
 export type Props = {
   children: string;
@@ -6,7 +6,7 @@ export type Props = {
 };
 
 const Titulo = (props: Props) => (
-  <TituloEstilo fontSize={props.fontSize}>{props.children}</TituloEstilo>
+  <StyleTitle fontSize={props.fontSize}>{props.children}</StyleTitle>
 );
 
 export default Titulo;

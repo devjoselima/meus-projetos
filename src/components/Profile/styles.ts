@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FotoPerfil = styled.img`
+export const ProfileImage = styled.img`
   max-width: 128px;
   height: 128px;
   border-radius: 50%;

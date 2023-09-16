@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import { P } from '../../components/Paragrafo/styles';
+import { P } from '../../components/Description/styles';
 
-export const Descricao = styled(P)`
+export const Job = styled(P)`
   margin-top: 24px;
   margin-bottom: 40px;
 `;
 
-export const BotaoTema = styled.button`
+export const ThemeButton = styled.button`
   border-radius: 12px;
   padding: 8px;
   font-size: 10px;
