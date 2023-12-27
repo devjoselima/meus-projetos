@@ -17,7 +17,7 @@ const Sidebar = (props: Props) => (
         devjoselima
       </Description>
       <Job type="dark" fontSize={12}>
-        Dev front-end
+        Dev Full-Stack
       </Job>
       <ThemeButton onClick={props.handleChangeTheme}>Trocar tema</ThemeButton>
     </SidebarContainer>

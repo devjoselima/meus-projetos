@@ -14,6 +14,7 @@ const Projects = () => (
             title={project.title}
             description={project.description}
             url={project.url}
+            githubUrl={project.githubUrl}
           />
         </li>
       ))}

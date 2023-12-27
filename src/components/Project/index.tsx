@@ -1,21 +1,29 @@
 import Description from '../Description';
 import Title from '../Title';
 
-import { Card, LinkButton } from './styles';
+import { Card, LinkButton, ContainerButtons } from './styles';
 
-type Props = {
+interface Props {
   title: string;
   description: string;
-  url: string;
-};
+  url?: string;
+  githubUrl: string;
+}
 
-const Projeto = ({ title, description, url }: Props) => (
+const Projeto = ({ title, description, url, githubUrl }: Props) => (
   <Card>
     <Title>{title}</Title>
     <Description type="light">{description}</Description>
-    <LinkButton href={url} target="_blank">
-      Visualizar
-    </LinkButton>
+    <ContainerButtons>
+      {url && (
+        <LinkButton href={url} target="_blank">
+          Ver deploy
+        </LinkButton>
+      )}
+      <LinkButton href={githubUrl} target="_blank">
+        Ver github
+      </LinkButton>
+    </ContainerButtons>
   </Card>
 );
 

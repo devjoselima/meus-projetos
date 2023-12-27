@@ -5,6 +5,11 @@ export const Card = styled.div`
   padding: 16px;
 `;
 
+export const ContainerButtons = styled.div`
+  display: flex;
+  gap: 8px;
+`;
+
 export const LinkButton = styled.a`
   color: ${({ theme }) => theme.corDeFundo};
   font-size: 14px;
